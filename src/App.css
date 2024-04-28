@@ -1,0 +1,45 @@
+
+.animation  {
+	height: 1000px;
+}
+.animation_layer
+{height: 1000px;
+
+}
+.animation {
+  display: block;
+	position: relative;
+
+	z-index: 10;
+}
+
+.animation_layer {
+	background-position: bottom center;
+   
+	background-size: auto 1038px;
+	background-repeat: repeat;
+
+	width: 100%;
+	position: absolute;
+}
+
+#mount1
+{
+    background-image: url("./assets/bg-1.jpg");
+}
+#mount2
+{
+    background-image: url("./assets/bg-2.png");
+}
+#mount3
+{
+    background-image: url("./assets/bg-3.png");
+}
+#mount4
+{
+    background-image: url("./assets/bg-4.png");
+}
+#mount5
+{
+    background-image: url("./assets/bg-5.png");
+}
